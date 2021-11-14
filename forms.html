@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Element</title>
+</head>
+<body>
+    <!-- Forms -->
+    <form action="index.html">
+        <!-- input -->
+        <label for="name">Ad Soyad: </label>
+        <input type="text" id="name"> <br/><br/>
+
+        <!-- textarea  -->
+        <label for="">Adres: </label>
+        <textarea cols="40" rows="4"></textarea>
+        <br/><br/>
+
+        <!-- Selectbox -->
+        <label for="">Ülke Seçimi Selectbox: </label>
+        <select > <!-- multiple -->
+            <option value="tr">Türkiye</option>
+            <option value="tr">ABD</option>
+            <option value="tr">İrlanda</option>
+            <option value="tr">Almanya</option>
+        </select>
+        <br/><br/>
+
+        <!-- Selectbox -->
+        <label for="">Ülke Seçimi Datalist: </label>
+        <input type="text" list="filtre">
+        <datalist id="filtre"> 
+            <option value="Türkiye">
+            <option value="Abd">
+            <option value="İrlanda">
+            <option value="Almanya"> 
+        </datalist>
+        <br/><br/>
+
+        <!-- Buttons-->
+        <button type="button">Button</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button> 
+        <button type="button" disabled>Disabled</button> 
+ 
+
+    </form>
+    
+</body>
+</html>
