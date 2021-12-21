@@ -1,4 +1,4 @@
-# Techcareer - FrontEnd 101 Eğitimi - Html Konuları
+# FrontEnd 101 Eğitimi - Html Konuları
 > Cihan Koç
 > > [LinkedIn](https://www.linkedin.com/in/cihankoc/) - [YouTube](https://www.youtube.com/cihankoc41/?sub_confirmation=1
 ) - [Web](https://cihankoc.com.tr/)
